@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Source Sans Pro', sans-serif; */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Form Clases */
+
+section .form-ingreso .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+section .form-ingreso h1 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-family: 'Abril Fatface', cursive;
+    color: #3d4246;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+section .form-ingreso .form-group input {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+section .form-ingreso .form-group input[type=text],
+section .form-ingreso .form-group select {
+    border: 1px solid #949494;
+    color: #3d4246;
+    font-size: 13px;
+    padding: 10px 18px;
+    border-radius: 2px;
+    margin: 3px 0px;
+}
+
+section .form-ingreso .form-group textarea {
+    border: 1px solid #949494;
+    color: #3d4246;
+    font-size: 13px;
+    padding: 10px 18px;
+    border-radius: 2px;
+    margin: 5px 0px;
+    resize: none;
+}
+
+section .form-ingreso .form-group input[type=text]::placeholder {
+    color: #3d4246;
+    font-size: 13px;
+}
+
+section .form-ingreso .form-group .btn {
+    color: #fff;
+    background-color: #8f7f93;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    border: 1px solid #0000;
+    padding: 10px 18px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 6px 0px;
+    border-radius: 2px;
+}
+
+/* Side img */
+
+section .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .hero-image img {
+    width: 200px;
+    height: 100px;
+}
+
+/* Card Clases */
+
+section .card-piedras {
+    border: none;
+}
+
+section .btn-delete {
+    color: #fff;
+    background-color: #3d4246;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    border: 1px solid #0000;
+    padding: 5px 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 2px;
+}
+
+section .btn-edit {
+    color: #fff;
+    background-color: #8f7f93;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    border: 1px solid #0000;
+    padding: 5px 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 2px;
+}
+
+section .card-piedras .img-main {
+    width: 250px;
+    height: 250px;
+}
+
+section .card-piedras h3 {
+    color: #3d4246;
+    font-size: 17px;
+    font-family: 'Abril Fatface', cursive; 
+    font-weight: 400;
+    letter-spacing: .1em;
+}
+
+section .card-piedras p {
+    color: #8f7f93;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    letter-spacing: .1em;
+}
